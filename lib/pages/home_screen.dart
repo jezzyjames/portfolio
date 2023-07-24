@@ -84,12 +84,12 @@ class _HomeScreenState extends State<HomeScreen> {
                       PhoneMockup(
                         imageName: 'amazingThailandiPhoneMockup.png',
                         appName: "Amazing Thailand",
-                        routeName: router.carUserApplicationRoute,
+                        routeName: router.amazingThailandRoute,
                       ),
                       PhoneMockup(
                         imageName: 'epodiPhoneMockup.png',
                         appName: "NOSTRA LOGISTICS ePOD",
-                        routeName: router.carUserApplicationRoute,
+                        routeName: router.epodRoute,
                       ),
                     ],
                   ),
