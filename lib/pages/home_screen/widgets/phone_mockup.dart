@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tasit_port_folio/router.dart' as router;
 
 class PhoneMockup extends StatelessWidget {
   const PhoneMockup({
@@ -18,6 +19,9 @@ class PhoneMockup extends StatelessWidget {
 
     return InkWell(
       onTap: () {
+        if (routeName == router.carUserApplicationRoute) {
+          return;
+        }
         Navigator.pushNamed(context, routeName);
       },
       hoverColor: Colors.black12,
@@ -27,8 +31,8 @@ class PhoneMockup extends StatelessWidget {
           SizedBox(
             child: Image.asset(
               'assets/images/$imageName',
-              width: 200.0,
-              height: 300.0,
+              width: 300.0,
+              height: 400.0,
               fit: BoxFit.fitHeight,
             ),
           ),
@@ -38,7 +42,8 @@ class PhoneMockup extends StatelessWidget {
           Text(
             appName,
             style: const TextStyle(color: Colors.white),
-          )
+            textAlign: TextAlign.center,
+          ),
         ],
       ),
     );

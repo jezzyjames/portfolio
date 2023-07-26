@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
       title: 'Tasit Sappooree',
       theme: ThemeData(
         primarySwatch: Colors.blue,
+        scaffoldBackgroundColor: Colors.blueGrey.shade800,
         fontFamily: 'Tellural',
         textTheme: TextTheme(
           bodySmall: MaterialStateTextStyle.resolveWith(
