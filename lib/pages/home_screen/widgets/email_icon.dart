@@ -4,7 +4,7 @@ import 'package:url_launcher/url_launcher.dart';
 class EmailIcon extends StatelessWidget {
   const EmailIcon({super.key});
 
-  Future<void> _sendEmail() async {
+  void _sendEmail() async {
     final Uri emailLaunchUri = Uri(
       scheme: 'mailto',
       path: 'tasit.sappooree@gmail.com',

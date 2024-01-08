@@ -7,6 +7,7 @@ class EPODScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        leading: const BackButton(color: Colors.white),
         backgroundColor: Colors.blueGrey[800],
         shadowColor: Colors.transparent,
         title: const Text(

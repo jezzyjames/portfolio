@@ -19,9 +19,6 @@ class PhoneMockup extends StatelessWidget {
 
     return InkWell(
       onTap: () {
-        if (routeName == router.carUserApplicationRoute) {
-          return;
-        }
         Navigator.pushNamed(context, routeName);
       },
       hoverColor: Colors.black12,

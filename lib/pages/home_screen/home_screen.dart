@@ -15,10 +15,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.blueGrey[900],
-      appBar: AppBar(
-        backgroundColor: Colors.blueGrey[800],
-        shadowColor: Colors.transparent,
-      ),
+      appBar: null,
       body: SingleChildScrollView(
         child: Center(
           child: Column(

@@ -35,21 +35,50 @@ class ProfileSection extends StatelessWidget {
                     fontFamily: 'Tellural',
                   ),
                 ),
+                Row(
+                  children: [
+                    Text(
+                      "Jet",
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 40.0,
+                        fontFamily: 'Tellural',
+                      ),
+                    ),
+                    Image(
+                      image: AssetImage("assets/images/cowIcon.png"),
+                      width: 70,
+                    ),
+                  ],
+                ),
                 Text(
-                  "Jet\nTasit Sappooree",
+                  "Tasit Sappooree",
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 40.0,
                     fontFamily: 'Tellural',
                   ),
                 ),
-                Text(
-                  "Coder, Gamer, Learner",
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 20.0,
-                    fontFamily: 'Tellural',
-                  ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  children: [
+                    Text(
+                      "Coder, Gamer, Learner\t",
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 20.0,
+                        fontFamily: 'Tellural',
+                      ),
+                    ),
+                    Image(
+                      image: AssetImage("assets/images/guitarIcon.png"),
+                      width: 40,
+                    ),
+                    Image(
+                      image: AssetImage("assets/images/gameControllerIcon.png"),
+                      width: 40,
+                    ),
+                  ],
                 ),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.start,
